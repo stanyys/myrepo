@@ -25,3 +25,14 @@ cars %>%
 ```
 
 ![](Sample_RMD_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+Playing with the diamonds dataset
+
+``` r
+diamonds %>% 
+  ggplot(aes(x = carat, y = price, col = clarity)) +
+  geom_point() +
+  facet_wrap(~cut)
+```
+
+![](Sample_RMD_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
