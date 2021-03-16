@@ -1,0 +1,28 @@
+#'---
+#'title: "A sample RMD document"
+#'output: github_document
+#'---
+
+#+ r setup, include=FALSE
+knitr::opts_chunk$set(echo = TRUE)
+
+
+#' Loading my libraries nicely
+
+suppressMessages(library(tidyverse))
+
+
+#' This is a single English sentence
+
+cars %>% 
+  ggplot(aes(x=speed, y=dist)) +
+  geom_point(col = "CadetBlue4")
+
+#' Playing with the diamonds dataset
+
+diamonds %>% 
+  ggplot(aes(x = carat, y = price, col = clarity)) +
+  geom_point() +
+  facet_wrap(~cut)
+
+

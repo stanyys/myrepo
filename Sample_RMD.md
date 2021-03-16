@@ -1,5 +1,7 @@
 A sample RMD document
 ================
+syin
+2021-03-16
 
 Loading my libraries nicely
 
