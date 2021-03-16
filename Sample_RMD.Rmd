@@ -7,10 +7,15 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Loading my libraries nicely
+```{r}
+suppressMessages(library(tidyverse))
+```
+
+
 This is a single English sentence
 
 ```{r}
-library(tidyverse)
 cars %>% 
   ggplot(aes(x=speed, y=dist)) +
   geom_point(col = "CadetBlue4")
