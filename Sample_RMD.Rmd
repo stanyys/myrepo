@@ -1,6 +1,6 @@
 ---
 title: "A sample RMD document"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
