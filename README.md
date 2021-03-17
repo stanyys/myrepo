@@ -6,3 +6,5 @@ I added line break here via GitHub<br/>
 Hello! From GitHub.
 
 I want to eat pie. Written on RStudio.
+
+Intentional Conflict with Line Added on Git
